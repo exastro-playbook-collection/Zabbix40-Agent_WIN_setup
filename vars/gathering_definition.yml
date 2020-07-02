@@ -1,0 +1,7 @@
+---
+command:
+  - type 'C:\Program Files\zabbix_agent\conf\zabbix_agentd.win.conf'
+  - dir C:\
+  - dir C:\temp
+file:
+  - C:\Program Files\zabbix_agent\zabbix_agentd.log

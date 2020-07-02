@@ -1,0 +1,5 @@
+---
+# zabbix_agentd.confのチューニング
+
+  - name: setting zabbix_agentd.conf
+    win_template: src=zabbix_agentd.win.conf.j2  dest="{{ VAR_Zabbix40AG_WIN_path }}\\conf\\{{ VAR_Zabbix40AG_WIN_conf }}"

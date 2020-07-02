@@ -1,0 +1,49 @@
+###  vars file for ansible-zabbix-agent
+
+## setting name for Zabbix Agent install path
+
+  VAR_Zabbix40AG_WIN_path: 'C:\Program Files\zabbix_agent'
+  VAR_Zabbix40AG_WIN_conf: zabbix_agentd.win.conf
+
+## setting parameters for Zabbix Agent
+
+  VAR_Zabbix40AG_WIN_LogType:
+  VAR_Zabbix40AG_WIN_LogFile: "{{ VAR_Zabbix40AG_WIN_path }}\\zabbix_agentd.log"
+  VAR_Zabbix40AG_WIN_LogFileSize:
+  VAR_Zabbix40AG_WIN_DebugLevel:
+  VAR_Zabbix40AG_WIN_SourceIP:
+  VAR_Zabbix40AG_WIN_EnableRemoteCommands:
+  VAR_Zabbix40AG_WIN_LogRemoteCommands:
+  VAR_Zabbix40AG_WIN_Server: 192.168.1.1
+  VAR_Zabbix40AG_WIN_ListenPort:
+  VAR_Zabbix40AG_WIN_ListenIP:
+  VAR_Zabbix40AG_WIN_StartAgents:
+  VAR_Zabbix40AG_WIN_ServerActive: 192.168.1.1
+  VAR_Zabbix40AG_WIN_Hostname: '{{ ansible_hostname }}'
+  VAR_Zabbix40AG_WIN_HostnameItem:
+  VAR_Zabbix40AG_WIN_HostMetadata:
+  VAR_Zabbix40AG_WIN_HostMetadataItem:
+  VAR_Zabbix40AG_WIN_RefreshActiveChecks:
+  VAR_Zabbix40AG_WIN_BufferSend:
+  VAR_Zabbix40AG_WIN_BufferSize:
+  VAR_Zabbix40AG_WIN_MaxLinesPerSecond:
+  VAR_Zabbix40AG_WIN_Alias: []
+  VAR_Zabbix40AG_WIN_Timeout:
+  VAR_Zabbix40AG_WIN_PerfCounter: []
+  VAR_Zabbix40AG_WIN_Include: []
+  VAR_Zabbix40AG_WIN_UnsafeUserParameters:
+  VAR_Zabbix40AG_WIN_UserParameter: []
+  VAR_Zabbix40AG_WIN_TLSConnect:
+  VAR_Zabbix40AG_WIN_TLSAccept:
+  VAR_Zabbix40AG_WIN_TLSCAFile:
+  VAR_Zabbix40AG_WIN_TLSCRLFile:
+  VAR_Zabbix40AG_WIN_TLSServerCertIssuer:
+  VAR_Zabbix40AG_WIN_TLSServerCertSubject:
+  VAR_Zabbix40AG_WIN_TLSCertFile:
+  VAR_Zabbix40AG_WIN_TLSKeyFile:
+  VAR_Zabbix40AG_WIN_TLSPSKIdentity:
+  VAR_Zabbix40AG_WIN_TLSPSKFile:
+
+## local vars
+  zabbix40ag_WIN_OS_Version_2016: 'Microsoft Windows Server 2016'
+  zabbix40ag_WIN_OS_Version_2012R2: 'Microsoft Windows Server 2012 R2'
